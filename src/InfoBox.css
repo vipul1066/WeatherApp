@@ -1,0 +1,46 @@
+.InfoBox{
+    text-align: center;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.InfoBox {
+  display: flex;
+  justify-content: center;
+}
+
+.cardContainer {
+  margin: 20px;
+}
+
+.weatherCard {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weatherImage {
+  height: 140px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.weatherTitle {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.weatherDetails {
+  padding: 10px;
+}
+
+.weatherDetails p {
+  margin: 5px 0;
+}
